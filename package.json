@@ -17,6 +17,7 @@
     "release": "yarn build && auto shipit",
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
+    "test-storybook": "test-storybook",
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=chpt_6cb778931980ac1"
   },
@@ -41,6 +42,7 @@
     "@storybook/react": "^8.2.7",
     "@storybook/react-vite": "^8.2.7",
     "@storybook/test": "^8.2.7",
+    "@storybook/test-runner": "^0.19.1",
     "@vitejs/plugin-react": "^3.1.0",
     "auto": "^10.3.0",
     "boxen": "^5.0.1",
