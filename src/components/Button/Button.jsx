@@ -8,6 +8,9 @@ import { brandThemeTokens } from '../ThemeProvider/theme';
 const useStyles = makeStyles({
   buttonBrand: {
     height: brandThemeTokens.lineHeightBase600,
+    borderRadius: brandThemeTokens.borderRadiusSmall,
+    padding: `${brandThemeTokens.spacingVerticalXS} ${brandThemeTokens.spacingHorizontalL}`,
+    fontSize: brandThemeTokens.fontSizeBase300,
   },
   buttonPrimary: {},
   buttonSecondary: {},
