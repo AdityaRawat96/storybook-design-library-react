@@ -1,3 +1,6 @@
+import React from 'react';
+import ThemeProvider from '../src/components/ThemeProvider/ThemeProvider';
+
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
@@ -8,6 +11,13 @@ const preview = {
       },
     },
   },
+  decorators: [
+    (Story) => (
+      <ThemeProvider>
+        <Story />
+      </ThemeProvider>
+    ),
+  ],
 };
 
 export default preview;
