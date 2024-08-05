@@ -1,5 +1,5 @@
 import React from 'react';
-import ThemeProvider from '../src/components/ThemeProvider/ThemeProvider';
+import { ThemeProvider } from '../src/components';
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
