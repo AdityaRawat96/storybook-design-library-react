@@ -2,6 +2,7 @@
 
 import { fn } from '@storybook/test';
 import Button from './Button';
+import { expect, userEvent, within } from '@storybook/test';
 
 // import { Button } from './Button';
 
@@ -124,6 +125,11 @@ export const PrimaryButton = {
   args: {
     variant: 'primary',
     children: 'Button',
+  },
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    await userEvent.click(canvas.getByRole('button'));
+    expect(canvas.getByRole('button')).toHaveFocus();
   },
 };
 
