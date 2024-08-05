@@ -1,4 +1,8 @@
 {
+  "author": {
+    "name": "Aditya Rawat",
+    "email": "adityasinghrawat96@gmail.com"
+  },
   "name": "@adityarawat96/storybook-design-library-react",
   "description": "Storybook design systems tutorial",
   "version": "0.1.2",
