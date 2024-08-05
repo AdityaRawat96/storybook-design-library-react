@@ -1,8 +1,9 @@
 {
-  "name": "learnstorybook-design-system-template",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@adityarawat96/storybook-design-library-react",
+  "description": "Storybook design systems tutorial",
+  "version": "0.0.1",
   "main": "dist/cjs/index.js",
+  "repository": "https://github.com/adityarawat96/storybook-design-library-react",
   "module": "dist/esm/index.js",
   "files": [
     "dist/**/*",
