@@ -1,7 +1,7 @@
 {
   "name": "@adityarawat96/storybook-design-library-react",
   "description": "Storybook design systems tutorial",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "main": "dist/cjs/index.js",
   "repository": "https://github.com/adityarawat96/storybook-design-library-react",
   "module": "dist/esm/index.js",
@@ -47,7 +47,7 @@
     "@storybook/test": "^8.2.7",
     "@storybook/test-runner": "^0.19.1",
     "@vitejs/plugin-react": "^3.1.0",
-    "auto": "^10.3.0",
+    "auto": "^11.0.5",
     "boxen": "^5.0.1",
     "chromatic": "^11.7.0",
     "dedent": "^0.7.0",
