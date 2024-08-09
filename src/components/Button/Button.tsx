@@ -23,7 +23,7 @@ const useStyles = makeStyles({
   buttonSecondary: {},
 });
 
-const Button = ({ variant, ...props }) => {
+const Button = ({ variant, ...props }: ButtonProps) => {
   const classes = useStyles();
 
   return (

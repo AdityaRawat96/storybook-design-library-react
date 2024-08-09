@@ -10,7 +10,7 @@
       }
     ],
     [
-      "babel/preset-typecript",
+      "@babel/preset-typescript",
       {
         "runtime": "automatic",
         "importSource": "@emotion/react"
