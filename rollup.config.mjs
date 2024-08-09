@@ -4,6 +4,7 @@ import terser from '@rollup/plugin-terser';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import { babel } from '@rollup/plugin-babel';
 import dts from 'rollup-plugin-dts';
+import typescript from '@rollup/plugin-typescript';
 
 // This is required to read package.json file when
 // using Native ES modules in Node.js
@@ -32,12 +33,12 @@ export default [
     plugins: [
       peerDepsExternal(),
       resolve({
-        extensions: ['.js', '.jsx'],
+        extensions: ['.ts', '.tsx'],
       }),
       commonjs(),
       terser(),
       babel({
-        extensions: ['.js', '.jsx'],
+        extensions: ['.ts', '.tsx'],
         exclude: 'node_modules/**',
       }),
       typescript({
