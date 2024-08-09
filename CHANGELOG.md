@@ -1,3 +1,25 @@
+# v0.1.5 (Fri Aug 09 2024)
+
+#### 🐛 Bug Fix
+
+- Rollup config updated [#4](https://github.com/AdityaRawat96/storybook-design-library-react/pull/4) ([@AdityaRawat96](https://github.com/AdityaRawat96))
+- Design library typescript support added [#3](https://github.com/AdityaRawat96/storybook-design-library-react/pull/3) ([@AdityaRawat96](https://github.com/AdityaRawat96))
+
+#### ⚠️ Pushed to `main`
+
+- Rollup DTS fix ([@AdityaRawat96](https://github.com/AdityaRawat96))
+- Rollup TS fix ([@AdityaRawat96](https://github.com/AdityaRawat96))
+- Rollup config fix ([@AdityaRawat96](https://github.com/AdityaRawat96))
+- Rollup config updated ([@AdityaRawat96](https://github.com/AdityaRawat96))
+- Rollup TS definitions fix ([@AdityaRawat96](https://github.com/AdityaRawat96))
+- TS supported peer dependencies added ([@AdityaRawat96](https://github.com/AdityaRawat96))
+
+#### Authors: 1
+
+- Aditya ([@AdityaRawat96](https://github.com/AdityaRawat96))
+
+---
+
 # v0.1.4 (Mon Aug 05 2024)
 
 #### 🐛 Bug Fix
