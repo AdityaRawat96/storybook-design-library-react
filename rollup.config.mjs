@@ -3,17 +3,19 @@ import commonjs from '@rollup/plugin-commonjs';
 import terser from '@rollup/plugin-terser';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import { babel } from '@rollup/plugin-babel';
+import dts from 'rollup-plugin-dts';
 
 // This is required to read package.json file when
 // using Native ES modules in Node.js
 // https://rollupjs.org/command-line-interface/#importing-package-json
 import { createRequire } from 'node:module';
+
 const requireFile = createRequire(import.meta.url);
 const packageJson = requireFile('./package.json');
 
 export default [
   {
-    input: 'src/index.js',
+    input: 'src/index.ts',
     output: [
       {
         file: packageJson.main,
@@ -38,7 +40,18 @@ export default [
         extensions: ['.js', '.jsx'],
         exclude: 'node_modules/**',
       }),
+      typescript({
+        tsconfig: './tsconfig.json',
+      }),
     ],
     external: ['react', 'react-dom', '@emotion/react', '@emotion/styled'],
+  },
+  {
+    input: 'dist/esm/types/index.d.ts',
+    output: {
+      file: 'dist/index.d.ts',
+      format: 'esm',
+    },
+    plugins: [dts.default()],
   },
 ];

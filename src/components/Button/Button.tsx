@@ -1,9 +1,16 @@
+import React from 'react';
 import {
   Button as FluentButton,
   makeStyles,
   mergeClasses,
 } from '@fluentui/react-components';
 import { brandThemeTokens } from '../ThemeProvider/theme';
+
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: 'primary' | 'secondary';
+  className?: string;
+}
+  
 
 const useStyles = makeStyles({
   buttonBrand: {

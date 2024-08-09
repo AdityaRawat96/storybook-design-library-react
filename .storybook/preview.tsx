@@ -1,8 +1,9 @@
+import type { Preview } from '@storybook/react';
+
 import React from 'react';
 import { ThemeProvider } from '../src/components';
 
-/** @type { import('@storybook/react').Preview } */
-const preview = {
+const preview: Preview = {
   parameters: {
     controls: {
       matchers: {
@@ -12,7 +13,7 @@ const preview = {
     },
   },
   decorators: [
-    (Story) => (
+    (Story: React.ComponentType) => (
       <ThemeProvider>
         <Story />
       </ThemeProvider>
