@@ -33,12 +33,12 @@ export default [
     plugins: [
       peerDepsExternal(),
       resolve({
-        extensions: ['.ts', '.tsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
       }),
       commonjs(),
       terser(),
       babel({
-        extensions: ['.ts', '.tsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
         exclude: 'node_modules/**',
       }),
       typescript({
@@ -48,11 +48,11 @@ export default [
     external: ['react', 'react-dom', '@emotion/react', '@emotion/styled'],
   },
   {
-    input: 'dist/esm/types/index.d.ts',
+    input: './dist/esm/types/index.d.ts',
     output: {
       file: 'dist/index.d.ts',
       format: 'esm',
     },
-    plugins: [dts.default()],
+    plugins: [dts()],
   },
 ];
