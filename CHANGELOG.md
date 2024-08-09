@@ -1,3 +1,16 @@
+# v0.1.7 (Fri Aug 09 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/AdityaRawat96/storybook-design-library-react ([@AdityaRawat96](https://github.com/AdityaRawat96))
+- Fixed peer dependencies ([@AdityaRawat96](https://github.com/AdityaRawat96))
+
+#### Authors: 1
+
+- Aditya ([@AdityaRawat96](https://github.com/AdityaRawat96))
+
+---
+
 # v0.1.6 (Fri Aug 09 2024)
 
 #### ⚠️ Pushed to `main`
