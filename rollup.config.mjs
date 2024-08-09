@@ -45,7 +45,15 @@ export default [
         tsconfig: './tsconfig.json',
       }),
     ],
-    external: ['react', 'react-dom', '@emotion/react', '@emotion/styled'],
+    external: [
+      'react',
+      'react-dom',
+      '@emotion/react',
+      '@emotion/styled',
+      '@types/react',
+      '@types/react-dom',
+      '@types/node',
+    ],
   },
   {
     input: './dist/dts/index.d.ts',
@@ -53,6 +61,6 @@ export default [
       file: 'dist/index.d.ts',
       format: 'esm',
     },
-    plugins: [dts()],
+    plugins: [dts.default()],
   },
 ];
