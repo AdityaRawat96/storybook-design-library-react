@@ -1,6 +1,14 @@
+import type { Theme } from '@fluentui/react-components';
 import { themeToTokensObject } from '@fluentui/react-components';
 
-export const brandTheme = {
+export const brandTheme: Theme & {
+  "color-text-primary": string;
+  "color-text-secondary": string;
+} = {
+  // Begin: Custom brand theme tokens
+  "color-text-primary": "#242424",
+  "color-text-secondary": "#424242",
+  // End: Custom brand theme tokens
   borderRadiusNone: '0',
   borderRadiusSmall: '2px',
   borderRadiusMedium: '4px',
