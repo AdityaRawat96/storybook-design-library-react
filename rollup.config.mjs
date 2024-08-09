@@ -48,7 +48,7 @@ export default [
     external: ['react', 'react-dom', '@emotion/react', '@emotion/styled'],
   },
   {
-    input: './dist/esm/types/index.d.ts',
+    input: './dist/dts/index.d.ts',
     output: {
       file: 'dist/index.d.ts',
       format: 'esm',
