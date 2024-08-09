@@ -51,7 +51,6 @@
     "@storybook/react-vite": "^8.2.7",
     "@storybook/test": "^8.2.7",
     "@storybook/test-runner": "^0.19.1",
-    "@types/react": "^18.3.3",
     "@vitejs/plugin-react": "^3.1.0",
     "auto": "^11.0.5",
     "boxen": "^5.0.1",
@@ -75,8 +74,10 @@
   "peerDependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@types/react": "^18.3.3",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "@types/react-dom": "^18.3.0"
   },
   "peerDependenciesMeta": {
     "react": {
