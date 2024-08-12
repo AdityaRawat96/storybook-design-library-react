@@ -1,3 +1,16 @@
+# v0.1.8 (Mon Aug 12 2024)
+
+#### ⚠️ Pushed to `main`
+
+- TS root directory added ([@AdityaRawat96](https://github.com/AdityaRawat96))
+- Ts root dir change ([@AdityaRawat96](https://github.com/AdityaRawat96))
+
+#### Authors: 1
+
+- Aditya ([@AdityaRawat96](https://github.com/AdityaRawat96))
+
+---
+
 # v0.1.7 (Fri Aug 09 2024)
 
 #### ⚠️ Pushed to `main`
